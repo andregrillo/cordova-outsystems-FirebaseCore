@@ -1,0 +1,19 @@
+{
+  "name": "cordova-outsystems-FirebaseCore",
+  "version": "0.0.1",
+  "description": "Core Plugin for OutSystems Firebase Plugins",
+  "cordova": {
+    "id": "cordova-outsystems-FirebaseCore",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "André Grillo",
+  "license": "MIT"
+}
