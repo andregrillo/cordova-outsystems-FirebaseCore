@@ -7,6 +7,7 @@
 		<clobbers target="cordova.plugins.cordova-outsystems-FirebaseCore" />
 	</js-module>
 
-	<hook type="before_plugin_install" src="hooks/unzipAndCopyConfigurations.js" />
+	<hook type="before_plugin_install" src="hooks/installDependencies.js" />
+	<hook type="after_plugin_install" src="hooks/unzipAndCopyConfigurations.js" />
 
 </plugin>
