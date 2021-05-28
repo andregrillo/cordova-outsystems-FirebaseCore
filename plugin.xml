@@ -11,7 +11,7 @@
 	-->
 
 	<hook type="before_plugin_install" src="hooks/installDependencies.js" />
-	<hook type="after_plugin_install" src="hooks/unzipAndCopyConfigurations.js" />
+	<hook type="before_plugin_install" src="hooks/unzipAndCopyConfigurations.js" />
 
 	<platform name="ios">
 		<resource-file src="GoogleService-Info.plist" target="./GoogleService-Info.plist" />
